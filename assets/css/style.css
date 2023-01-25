@@ -1,0 +1,138 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* start header  */
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.container .header .logo {
+    background-color: #2caca3f3;
+    width: 26%;
+    height: 53px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container .header .navbar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .header .navbar ul li {
+    margin-left: 20px;
+}
+
+.container .header .navbar ul .border {
+    border-right: 1px solid #8B8B8B;
+    margin-left: 10px;
+    height: 30px;
+}
+
+.container .header .navbar ul li a {
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    color: #8B8B8B;
+}
+/* end header  */
+
+/* start body-box  */
+
+.body-box {
+    background-color: #D9D9D9;
+}
+
+.body-box .container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.body-box .container .about {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    width: 68%;
+}
+.body-box .container h2 {
+    color: #2caca3f3;
+    border-bottom: 2px solid #8B8B8B;
+    padding-bottom: 10px;
+}
+.body-box .container .about .content{
+   margin-top: 20px;
+}
+.body-box .container .about .content span{
+    font-size: 30px;
+    font-weight: bold;
+    color: #575757;
+}
+.body-box .container .about .content .img{
+    width: 20%;
+    float: left;
+    margin-right: 20px;
+}
+.body-box .container .about .content .img img{
+    width: 100%;
+}
+.body-box .container .about .content p{
+    line-height: 2;
+    font-size: 16px;
+    font-weight: 700;
+    color: #7e7e7e;
+    padding-top: 20px;
+}
+
+.body-box .container .contact {
+    margin-left: 30px;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    width: 28%;
+    height: 195px;
+}
+
+.body-box .container .contact .imgs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.body-box .container .contact .imgs a img {
+    width: 70px;
+}
+/* end body-box  */
+
+/* start footer */
+.footer{
+    background-color: #575757;
+    color: #8B8B8B;
+    text-align: center;
+    padding: 30px 0;
+    font-weight:700 ;
+    border-top: 5px solid #2caca3f3;
+}
