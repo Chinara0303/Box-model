@@ -39,6 +39,8 @@ a {
 .container .header .navbar ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 45px;
 }
 
 .container .header .navbar ul li {
@@ -46,9 +48,9 @@ a {
 }
 
 .container .header .navbar ul .border {
-    border-right: 1px solid #8B8B8B;
+    border-right: 1px solid #d9d9d9;
     margin-left: 10px;
-    height: 30px;
+    height: 40px;
 }
 
 .container .header .navbar ul li a {
